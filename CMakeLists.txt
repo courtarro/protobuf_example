@@ -11,7 +11,8 @@ add_subdirectory(proto)
 
 # Library definition (libpbhello)
 add_library(pbhello SHARED src/PBHello.cpp)
-target_include_directories(pbhello PUBLIC include ${HELLO_PROTO_INCLUDE_DIRS})
+target_include_directories(pbhello PUBLIC include)
+target_include_directories(pbhello PUBLIC ${HELLO_PROTO_INCLUDE_DIRS})
 target_link_libraries(pbhello protomessages)
 
 # Build the demo executable

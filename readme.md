@@ -34,9 +34,9 @@ Running
 
 Once the build is successful, you can run the demo like so (from the build directory):
 
-        $ ./demo/pb_hello_demo "test message text goes here"
-        test message text goes here
-        11235
+    $ ./demo/pb_hello_demo "test message text goes here"
+    test message text goes here
+    11235
 
 The "11235" text is always produced to demonstrate the private storage and use of the `another_message` type by the
 `libpbhello` class `PBHello`, which is not exposed publicly outside the class.

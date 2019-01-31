@@ -1,0 +1,5 @@
+package custom;
+
+message hello_message {
+    optional string text = 1;
+}

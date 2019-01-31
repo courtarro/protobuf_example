@@ -24,10 +24,10 @@ Building
 
 Use the standard CMake build steps:
 
-- mkdir build
-- cd build
-- cmake ..
-- make
+    mkdir build
+    cd build
+    cmake ..
+    make
 
 Running
 =======

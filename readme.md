@@ -44,6 +44,6 @@ The "11235" text is always produced to demonstrate the private storage and use o
 Reference Material
 ==================
 
-[1]: https://developers.google.com/protocol-buffers/docs/cpptutorial "Protobuf C++ Tutorial"
-[2]: https://developers.google.com/protocol-buffers/docs/reference/cpp-generated "Protobuf C++ Generated Code"
-[3]: https://cmake.org/cmake/help/latest/module/FindProtobuf.html "FindProtobuf CMake Module"
+- [Protobuf C++ Tutorial](https://developers.google.com/protocol-buffers/docs/cpptutorial)
+- [Protobuf C++ Generated Code](https://developers.google.com/protocol-buffers/docs/reference/cpp-generated)
+- [FindProtobuf CMake Module](https://cmake.org/cmake/help/latest/module/FindProtobuf.html)

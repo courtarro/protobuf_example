@@ -3,7 +3,7 @@
 #include <another_message.pb.h>
 
 namespace my_company {
-    namespace hello_project {    
+    namespace hello_project {
 
 PBHello::PBHello(std::string messageText) : messageText(messageText) {
     GOOGLE_PROTOBUF_VERIFY_VERSION;
